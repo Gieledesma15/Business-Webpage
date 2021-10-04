@@ -1,0 +1,328 @@
+body{
+    background-color: #ffe5d9;
+}
+#menu {
+    border: 2px solid transparent;
+    margin: auto;
+    padding-left: 0%;
+   
+}
+#menu a{
+    color: black;
+    font-family: 'Cinzel', serif;
+}
+#menu a:link {
+    text-decoration: none; 
+}
+#menu a:visited {
+    text-decoration: none;
+}
+#menu a:hover { 
+    text-decoration: none;
+}
+#menu a:active {
+    text-decoration: none; 
+}
+#menu li {
+    font-size:150%;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    display: inline;
+    padding: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+    float: left;
+}
+#menu .search-container form {
+    padding: 1%;
+   
+}
+#menu .search-container input {
+    font-family: 'Cinzel', serif;
+    padding-left: 0%;
+    margin-right: 0%;
+    font-size:120%;
+    text-align: left;
+    background-color: transparent;
+}
+#menu .search-container button {
+    opacity: 0.6;
+    float: right;
+    margin-top: -2%;
+    font-size:120%; 
+    background-color: transparent;
+    border: none;
+    padding-right: 3%;
+}
+
+#home {
+    background-image: url(meatpic.jpg);
+    background-repeat: no-repeat        ;
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 400%;
+    padding: 3%;
+  
+    
+}
+.homebox {
+    border: 5px solid #ffe5d9;
+    height: 480px;
+    width:auto ;
+    text-shadow: 3px 3px white;
+}
+.intro {
+    border: 2px solid transparent;
+    background-color: transparent;
+    height: 200px;
+    width: auto;
+    font-size: 150%;
+    text-align: center;
+    padding:3%;
+    padding-bottom: 2%;
+}
+#About {
+    background-color: transparent;
+    background-size:cover;
+    background-position: center;
+    display: block;
+    height: 3200px;
+    width: auto;
+   
+}
+img {
+    border-radius: 10%;
+    box-shadow:10px 15px 15px #565264;
+    height: 500px;
+    width: 700px;
+}
+.pork {
+    padding:4%;
+    padding-top: 6%;
+    float: left;
+}
+.porktext { 
+    background-color: transparent;
+    height: 5%;
+    width: 40%;
+    float: right;
+    margin-right: 4%;
+    margin-top: -30%;
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 4%;
+}
+.beef {
+    padding: 4%;
+    padding-top: 40%;
+    margin-top: -37%;
+    float: right;
+}
+.beeftext {
+    background-color: transparent;
+    float: left;
+    height: 5%;
+    width: 45%;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    margin-top: -27%;
+}
+.chicken {
+    padding:4%;
+    padding-top: 4%;
+    float: left;
+}
+.chickentext { 
+    background-color: transparent;
+    height: 5%;
+    width: 40%;
+    float: right;
+    margin-right: 4%;
+    margin-top: -30%;
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 4%;
+}
+.duck {
+    padding: 4%;
+    padding-top: 40%;
+    margin-top: -37%;
+    float: right;
+}
+.ducktext {
+    background-color: transparent;
+    float: left;
+    height: 5%;
+    width: 45%;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    margin-top: -27%;
+}
+.turkey {
+    padding:4%;
+    padding-top: 4%;
+    float: left;
+}
+.turkeytext { 
+    background-color: transparent;
+    height: 5%;
+    width: 40%;
+    float: right;
+    margin-right: 4%;
+    margin-top: -30%;
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 4%;
+}
+#Gallery {
+    background-color: #f5cecc;
+    height: 1500px;
+    width: auto;
+    text-align: center;
+    padding: 5%;
+}
+.porkbox {
+    background-color: transparent;
+    height: 300px;
+    width: auto;  
+}
+.porkbox img {
+    height: 270px;
+    width: 262px;
+    box-shadow: none;
+    border-radius: 5%;
+}
+.beefbox {
+    background-color:transparent;
+    height: 300px;
+    width: auto; 
+}
+.beefbox img {
+    height: 270px;
+    width: 262px;
+    box-shadow: none;
+    border-radius: 5%;
+}
+.chickenbox {
+    background-color: transparent;
+    height: 300px;
+    width: auto; 
+}
+.chickenbox img {
+    height: 270px;
+    width: 262px;
+    box-shadow: none;
+    border-radius: 5%;
+}
+.duckbox {
+    background-color: transparent;
+    height: 300px;
+    width: auto; 
+}
+.duckbox img {
+    height: 270px;
+    width: 262px;
+    box-shadow: none;
+    border-radius: 5%;
+}
+.turkeybox {
+    background-color: transparent;
+    height: 300px;
+    width: auto; 
+}
+.turkeybox img {
+    height: 270px;
+    width: 262px;
+    box-shadow: none;
+    border-radius: 5%;
+}
+#Contact {
+    background-color: #eeb3b0;
+    text-align: center;
+    height: 500px;
+    width: auto;  
+    padding: 2%;
+}
+.fill {
+    border: 5px solid white;
+    height: 80%;
+    width: 80%;
+    margin-left: 9%;
+}
+h2 {
+    color: white; 
+    text-align: center;
+}
+form {
+    color: white; 
+    text-align: center;
+    padding-bottom: 6%;
+    padding-top: 3%;
+   
+}
+form input {
+    background-color: bisque;
+    text-align: center;
+    left:150px;
+    top:-25px;
+    line-height:30px;
+    width: 17%;
+    border-radius: 5px;
+    padding: 0 100px;
+    border:2px solid  white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+.footer {
+    background-color: #a1716f;
+    height: 100px;
+    width: auto;
+}
+.flex-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container .flex-icon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container .flex-icon .icons {
+    padding: 50px;
+    font-size: 30px; /*size ng icon at font*/
+}
+.icon-details-text {
+    display: none;
+    text-align: center;
+    text-decoration: none;
+}
+.icon-details:hover .icon-details-text {
+    display: block;
+}
+.icon-details-text  a{
+    text-decoration: none;
+    font-family: 'Rampart One', cursive;
+    color: black;
+}
+.icon-details-text  a:hover{
+    text-decoration: none;
+    font-family: 'Rampart One', cursive;
+    color: black;
+}
+.foot
+{
+    text-align: center;
+   
+}
